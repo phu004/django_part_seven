@@ -1,6 +1,6 @@
 # Django Workshop Exercise 7
 
-In this exercise we will use bootstrap and some javascript to style the page which is repsonsible listing items in a ToDoList.
+In this exercise we will use bootstrap and some javascript to style the page which is repsonsible for listing items in a ToDoList.
 <br/><br/>
 ## 1. Prepare for the coding environment  
 
