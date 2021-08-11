@@ -50,5 +50,5 @@ The goal is to apply the bootstrap style class "list-group list-group-flush" to 
   myElement.className = 'my-css-class'
 ```
 
-
+Complete the javascript section in "main/templates/main/list.html" so out item listing page resembles the image below:
 
