@@ -17,3 +17,18 @@ workon dj && cd mysite
 From the app's home page, if you click on any of the ToDoList it will take you to the "item listing" page. The template for rendering this page is located at "main/templates/main/list.html". Open this file and apply styling to the buttons inside the form so they resemble the image below:
 
 ![alt text](https://github.com/phu004/django_part_seven/blob/main/workshop7a.png)
+
+<details>
+  <summary>Click for solution</summary>
+  
+```sh
+  <!-- ToDo: Apply styles to the buttons so they resemble the image from the exercise slides  -->
+  <!-- Hint: Have a look at how style is applyed to buttons in create.html -->
+  <br>
+  <div class="input-group mb-3">
+      <button type="submit" name="newItem" value="newItem" class="btn btn-success">Add Item</button>
+      <input type="text" name="new">
+  </div>
+  <button type="submit" name="save" value="save" class="btn btn-success">Save</button>
+```
+</details>
