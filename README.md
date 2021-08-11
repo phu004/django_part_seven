@@ -13,3 +13,5 @@ Once you are in, activate the python virtual environment and cd into the project
 workon dj && cd mysite
 ```
 <br/><br/>
+## 2. Use bootstrap to style the buttons in the item listing page
+From the app's home page, if you click on any of the ToDoList it will take you to the "item listing" page. The template for rendering this page is located at "main/templates/main/list.html". Open this file and apply styling to the buttons inside the form so they resemble the image below:
