@@ -51,4 +51,4 @@ The goal is to apply the bootstrap style class "list-group list-group-flush" to 
 ```
 
 Complete the javascript section in "main/templates/main/list.html" so out item listing page resembles the image below:
-
+![alt text](https://github.com/phu004/django_part_seven/blob/main/workshop7b.png)
