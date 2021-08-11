@@ -53,3 +53,19 @@ The goal is to apply the bootstrap style class "list-group list-group-flush" to 
 Complete the javascript section in "main/templates/main/list.html" so out item listing page resembles the image below:
 
 ![alt text](https://github.com/phu004/django_part_seven/blob/main/workshop7b.png)
+
+<details>
+  <summary>Click for solution</summary>
+  
+```sh
+$('document').ready(function(){
+    //ToDo: change the class for the ul element (with id="id_items") to 'list-group list-group-flush'.
+    //Then change all its child li element's class to "list-group-item"
+    var my_ul = document.getElementById("id_items");
+    my_ul.className  = 'list-group list-group-flush';
+    my_lis =  my_ul.getElementsByTagName("li");
+    for(var i = 0; i < my_lis.length; i++)
+        my_lis[i].classList.add("list-group-item");
+ });
+```
+</details>
