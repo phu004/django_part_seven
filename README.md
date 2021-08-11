@@ -44,7 +44,7 @@ The next thing to do is to apply styling to the item list itself. However since 
 </ul>
 ```
 
-The goal is to apply the bootstrap style class "list-group list-group-flush" to "ul" and then apply the style class "list-group-item" to all the child "li" elements. We use javascript to dynamically apply any style class to any element using the following syntax: 
+The goal is to apply the bootstrap style class "list-group list-group-flush" to "ul" and then apply the style class "list-group-item" to all the child "li" elements. We can use javascript to dynamically apply any style class to any element using the following syntax: 
 
 ```sh
   myElement.className = 'my-css-class'
