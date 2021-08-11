@@ -1,0 +1,14 @@
+{% extends 'main/base.html' %}
+
+{% block title %}
+        My Home Page
+{% endblock %}
+
+{% block content %}
+        <h4>My to do lists:</h4>
+                <div class="list-group list-group-flush">
+                        {% for todolist in list %}
+                                <a href="{{todolist.id}}" class="list-group-item list-group-item-action">{{todolist.name}}</a>
+                        {% endfor %}
+                </div>
+{% endblock %}
